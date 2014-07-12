@@ -1,0 +1,39 @@
+/* this container has the ASL iframe, the loading image and the See More link */
+#asl-outer-container{
+	z-index: 10000;
+	position: relative;
+}
+#asl-container{
+	background-color:white; 
+	width: 240px; 
+	height:200px; 
+	right:10px; 
+	bottom:10px;
+	position:fixed; 
+	text-align:center; 
+	z-index:10; 
+	border: 1px solid #666;
+}
+
+#asl-container a{
+	position:absolute;
+	top:2px; 
+	right:15px; 
+	z-index:20;
+}
+
+#asl-load-img{
+	position: absolute;
+	right:20px;
+	top :40px;
+	z-index:-1;
+}
+
+/* the actual ASL iframe */
+#asl-iframe{
+	margin-right:10px;
+	width: 99%;
+	height: 99%;
+	margin: 0 auto;
+	border:none;
+}
